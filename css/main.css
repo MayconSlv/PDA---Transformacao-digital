@@ -13,6 +13,12 @@
     margin: 1em 0;
 }
 
+.principal__texto {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 1em;
+}
+
 .principal__image {
     width: 98%;
 }
@@ -31,6 +37,11 @@
 
 .texto p {
     line-height: 20px;
+    margin: 1em 0;
+}
+
+span {
+    font-weight: 600;
 }
 
 .texto-subtitulo {
