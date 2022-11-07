@@ -1,0 +1,78 @@
+.rodape {
+    background-color: var(--amarelo-padrao);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.rodape__logo {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.rodape__links {
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .rodape{
+        justify-content: space-between;
+        height: auto;
+        align-items: flex-start;
+        padding: 2em 0;
+        }
+
+    .rodape-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .rodape h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: .8em;
+    }
+
+    .rodape__redes li, .rodape__creditos li {
+        padding: 1em 0;
+    }
+
+    .rodape__creditos a {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .rodape__creditos a:hover {
+        text-decoration: underline;
+    }
+
+    .rodape__links {
+        border-left: 1px solid black;
+        padding: 1em;
+        display: block;
+    }
+
+    .rodape__redes a{
+        color: var(--preto);
+        text-decoration: none;
+    }
+
+    .rodape__redes a:hover {
+        text-decoration: underline;
+    }
+
+    .rodape__redes-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape__redes-item img {
+        margin-right: 1em;
+    }
+    
+}
